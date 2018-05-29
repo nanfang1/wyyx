@@ -1,0 +1,204 @@
+/* 顶部 */
+body,html{
+  width:100%;
+  height: 100%
+}
+
+/*头部导航见style.css*/
+/*banner部分*/
+.banner{
+    background:url(../images/bg_c95d7e1.jpg) no-repeat top center;
+    width: 100%;
+    height: 735px;
+    position: relative;
+}
+.banner .banlogo{
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.banner .banlogo a img{
+    display: block;
+    margin-left: -150px;
+}
+.banner .banlogo span{
+   color: #ab9e55;
+   font-size: 14px;
+   display: block;
+   margin-left: -108px;
+}
+/*enter网站胶囊*/
+.banner .internet {
+    height: 24px;
+    position: relative;
+    right: -110px;
+    top: -60px;
+}
+.banner .internet .jrgw{
+    position: absolute;
+    right: 10px;
+    float: right;
+    width: 120px;
+    color: #957a52;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f0eff4;
+    border-radius: 20px;
+    margin-right: 22px;
+    transition: all 0.3s;
+}
+.banner .internet .jrwjz{
+    position: absolute;
+    right: 150px;
+    float: right;
+    width: 120px;
+    color: #957a52;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f0eff4;
+    border-radius: 20px;
+    margin-right: 22px;
+    transition: all 0.3s;
+}
+.banner .internet a:hover{
+    color: #fff;
+    background-color: #986a34;
+}
+/*player*/
+.player img {
+    width: 100%;
+    height: 211px;
+    margin-top: 100px;
+}
+/*download*/
+.download {
+    background:url(../images/dld-bg_5ae730e.png) no-repeat top center; 
+    width: 546px;
+    height: 128px;
+    margin-top: 120px;
+    position: relative;
+}
+.download .common {
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 100px;
+}
+.download a .pic1 {
+    margin-left: 20px;
+}
+.download a .pic2,.pic4 {
+    width: 96px;
+    border-radius: 12px;
+}
+.download .down-pc {
+  background:url(../images/dld-zmb-h_a45169a.png) no-repeat;
+  width: 358px;
+  height: 128px;
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 545px;
+  z-index: 1000000;
+  display: none;
+}
+.download .down-pc p {
+  color: gray;
+  line-height: 25px;
+  margin-left: 30px;
+}
+/*video*/
+.video {
+    background: url(../images/index_z_2a9d5db.png) no-repeat 0 0;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    top: -115px;
+    right: -350px;
+}
+/*视频的圆圈*/
+.video .shipin {
+  position: absolute;
+  top: 50%;
+  margin-top: -36px;
+  left: 50%;
+  margin-left: -36px;
+}
+.video .shipin .img1 {
+    background: url(../images/index_z_2a9d5db.png) no-repeat -128px 0;
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+/*动画*/
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.video .shipin .img1:hover{
+    animation-play-state: paused;
+}
+/*视频图标*/
+.video .shipin .img2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -10px;
+}
+/*footer*/
+.footer{
+    width: 1920px;
+    display: block;
+    background-color: #000000;
+}
+.footer .footerlogo {
+  display: block;
+  margin-left: 280px;
+  width: 300px;
+}
+.footer .introduce{
+  display: block;
+  float: right;
+  margin-right: 800px;
+  margin-top: -36px;   
+}
+.footer .introduce a {
+    color: #848486;
+    margin-left: 2px;
+}
+.footer .introduce span {
+    width: 5px;
+    height: 2px;
+    color: #848486;
+}
+.footer .introduce .copy{
+  margin-top: 10px;
+  display: block;
+}
+.footer .introduce .click{
+    color: #fff;
+    background-color: #610000;
+    height: 25px;
+    float: right;
+    line-height: 25px;
+    display: block;
+    margin-top: -15px;
+
+}
+.footer .copyright p {
+    color: #848486;
+    padding-left: 170px;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10px;
+    margin-left: 112px;
+}

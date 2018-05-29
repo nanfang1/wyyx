@@ -1,0 +1,411 @@
+/*浏览器样式重置*/
+body{font-size:12px;width:100%;font-family:"微软雅黑";max-width:1920px;min-width:1260px;margin:auto;}
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+/*头部*/
+.header {
+	width: 100%;
+	height: 55px;
+	background: #fbfbfb;
+}
+
+.header .box {
+	width: 1000px;
+	margin: auto;
+	position: relative;
+	z-index: 99;
+}
+
+.header .logo {
+	float: left;
+}
+
+.header .logo img {
+	height: 44px;
+	margin-top: 5px;
+}
+
+.header .ad {
+	width: 420px;
+	height: 55px;
+	float: left;
+	margin-left: 15px;
+}
+
+.header .ad .ad1 {
+	width: 420px;
+	height: 55px;
+}
+
+.header .ad .ad2 {
+	width: 960px;
+	height: 250px;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	display: none;
+}
+
+.header .ad:hover .ad1 {
+	display: none;
+}
+
+.header .ad:hover .ad2 {
+	display: block;
+}
+
+.header .link {
+	float: right;
+}
+
+.header .link-a {
+	width: 72px;
+	height: 55px;
+	float: left;
+}
+
+.header .link-a a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 52px;
+	position: relative;
+	color: #333;
+	text-align: center;
+}
+
+.header .link-a a span {
+	display: block;
+	width: 72px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.header .link-a a:hover {
+	background: #f5f5f5;
+	color: #bc2e2e;
+}
+
+.header .link-a a:hover span {
+	background: #bc2e2e;
+}
+
+.header .link-b {
+	width: 124px;
+	height: 55px;
+	line-height: 52px;
+	float: left;
+}
+
+.header .link-b .text {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	position: relative;
+	color: #333;
+	text-align: right;
+}
+
+.header .link-b .text span {
+	display: block;
+	width: 124px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.header .link-b .text i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/symbol-jiantou.png) no-repeat center #fff;
+	border-radius: 3px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.header .link-b:hover .text {
+	background: #f5f5f5;
+	color: #bc2e2e;
+}
+
+.header .link-b:hover .text span {
+	background: #bc2e2e;
+}
+
+.header .link-b .hide-list {
+	width: 1000px;
+	height: 476px;
+	opacity: 0.95;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	background: #fdfefe;
+	border-top: 1px solid #ececec;
+	display: none;
+}
+
+.header .hide-list .list {
+	height: 460px;
+	position: relative;
+	background: #fdfefe;
+}
+
+.header .hide-list .list .title {
+	height: 40px;
+	line-height: 40px;
+	color: #bc2e2e;
+	font-size: 14px;
+	text-indent: 20px;
+	background: #f7f7f8;
+}
+
+.header .hide-list .list p {
+	line-height: 24px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	font-weight: bold;
+	color: #626262;
+}
+
+.header .hide-list .list ul {
+	height: 384px;
+	overflow: hidden;
+}
+
+.header .hide-list .list li {
+	height: 24px;
+	line-height: 24px;
+}
+
+.header .hide-list .list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #626262;
+}
+
+.header .hide-list .list li a:hover {
+	color: #bc2e2e;
+}
+
+.header .hide-list .list li i {
+	display: block;
+	width: 18px;
+	height: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.header .hide-list .list li i.icon-hot {
+	background: url(../images/symbol-hot.png) no-repeat center;
+}
+
+.header .hide-list .list li i.icon-new {
+	background: url(../images/symbol-new.png) no-repeat center;
+}
+
+.header .hide-list .list li i.icon-no1 {
+	background: url(../images/symbol-no1.png) no-repeat center;
+}
+
+.header .hide-list .list li i.icon-logo {
+	position: relative;
+	float: left;
+	width: 23px;
+	background: url(../images/symbol-logo.png) no-repeat center;
+}
+
+.header .hide-list .list .more {
+	display: block;
+	width: 20px;
+	height: 95px;
+	position: absolute;
+	right: 0;
+	top: 171px;
+	color: #fff;
+	background: #bc2e2e;
+	padding-left: 10px;
+	padding-top: 7px;
+	line-height: 14px;
+	border-radius: 2px 0;
+}
+
+.header .hide-list .list .more:hover {
+	opacity: 0.9;
+}
+
+.header .hide-list .list .close {
+	display: block;
+	width: 26px;
+	height: 24px;
+	line-height: 24px;
+	position: absolute;
+	right: 0;
+	top: 200px;
+	color: #fff;
+	background: #bc2e2e;
+	border-radius: 2px;
+	text-align: center;
+	display: none;
+}
+
+.header .hide-list .list .close:hover {
+	opacity: 0.9;
+}
+
+.header .hide-list .list-a {
+	width: 300px;
+	float: left;
+}
+
+.header .hide-list .list-a .title {
+	border-right: 1px solid #ececec;
+}
+
+.header .hide-list .list-b {
+	width: 570px;
+	position: absolute;
+	left: 299px;
+	top: 0;
+	overflow: hidden;
+	border-right: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+}
+
+.header .hide-list .list-c {
+	width: 130px;
+	float: right;
+}
+
+.header .hide-list .juese {
+	height: 425px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+.header .hide-list .juese ul {
+	width: 115px;
+	float: left;
+	margin-right: 40px;
+}
+
+.header .hide-list .jingji {
+	width: 144px;
+	height: 425px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	border-right: 1px solid #ececec;
+}
+
+.header .hide-list .jingji li a {
+	width: 105px;
+}
+
+.header .hide-list .remen {
+	position: absolute;
+	width: 148px;
+	height: 425px;
+	border-right: 1px solid #ececec;
+	left: 0;
+	top: 40px;
+}
+
+.header .hide-list .remen p {
+	text-indent: 20px;
+}
+
+.header .hide-list .remen ul {
+	width: 121px;
+	margin-left: 20px;
+}
+
+.header .hide-list .xinpin {
+	width: 800px;
+	height: 425px;
+	position: absolute;
+	padding-left: 20px;
+	left: 149px;
+	top: 40px;
+	overflow: hidden;
+}
+
+.header .hide-list .xinpin ul {
+	float: left;
+	width: 125px;
+	margin-right: 10px;
+}
+
+.header .hide-list .xinpin ul.width110 {
+	width: 110px;
+}
+
+.header .hide-list .xinpin ul.margin20 {
+	margin-left: 20px;
+}
+
+.header .hide-list .fuzhu ul {
+	width: 105px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+.header .link-c {
+	width: 102px;
+	height: 55px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin-left: 5px;
+}
+
+.header .link-c ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+.header .link-c li {
+	width: 100%;
+	height: 55px;
+	margin-bottom: 45px;
+}
+
+.header .link-c li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 52px;
+	position: relative;
+	color: #333;
+	text-align: center;
+}
+
+.header .link-c li a span {
+	display: block;
+	width: 100%;
+	height: 0px;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	background: #bc2e2e;
+	transition: height 0.5s,bottom 0.5s;
+	-webkit-transition: height 0.5s,bottom 0.5s;
+}
+
+.header .link-c li a:hover {
+	background: #f5f5f5;
+	color: #bc2e2e;
+}
+
+.header .link-c li a:hover span {
+	height: 3px;
+	bottom: 0;
+}

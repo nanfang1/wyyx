@@ -1,0 +1,324 @@
+/* products新服福利列表*/
+.container{
+    background:url(../images/bg_fl_76b8dc6.jpg) top center no-repeat;
+    height: 959px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+.container .main {
+  width: 1360px;
+  padding-top: 50px;
+}
+.main {
+  margin: 0 auto;
+  position: relative;
+}
+.container .p_title img {
+    display: block;
+    margin: 0 auto;
+    width: 497px;
+    padding-top: 30px;
+}
+.container .main .fuli {
+  height: 323px;
+  margin: 120px auto 0;
+  background: url(../images/fl-btn_d7d9e88.jpg) no-repeat center top;
+}
+.container .main .fuli li {
+  width: 170px;
+  height: 320px;
+  float: left;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.container .main .fuli .bottom_side {
+  padding: 20px;
+  position: absolute;
+  height: 54px;
+  background:url(../images/lih_7a34973.jpg) no-repeat;
+  bottom: 0;
+  cursor: pointer;
+  color: #fbfbfb;
+  display: none;
+}
+/*点击效果*/
+  .mask {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+  display: none;
+}
+.click-result {
+  width: 810px;
+  height: 400px;
+  top: 20%;
+  position: fixed;
+  left: 50%;
+  margin-left: -405px;
+  z-index: 10000;
+ display: none;
+}
+.close-result {
+  position: absolute;
+  right: 0;
+  width: 32px;
+  height: 32px; 
+  cursor: pointer;
+  background: url(../images/popbtn_ff05315.png) no-repeat -72px -5px;
+  z-index: 100000;
+}
+/*新人福利点击的title图片*/
+.title-result1 {
+  background: url(../images/titlebg1_d921c87.png) center center no-repeat;
+}
+.title-result2 {
+  background: url(../images/titlebg2_3abe415.png) center center no-repeat;
+}
+.title-result3 {
+  background: url(../images/titlebg3_b6e5bd2.png) center center no-repeat;
+}
+.title-result4 {
+  background: url(../images/titlebg4_b61948a.png) center center no-repeat;
+}
+.title-result5 {
+  background: url(../images/titlebg5_f0563e4.png) center center no-repeat;
+}
+.title-result6 {
+  background: url(../images/titlebg6_3690cbd.png) center center no-repeat;
+}
+.title-result7 {
+  background: url(../images/titlebg7_647e060.png) center center no-repeat;
+}
+.title-result8 {
+  background: url(../images/titlebg8_d6d777a.png) center center no-repeat;
+}
+.click-result h3 {
+  font-size: 32px;
+  color: #e0cb93;
+  line-height: 40px;
+  width: 100%;
+  height: 40px;
+}
+.click-result .text {
+  width: 800px;
+  position: relative;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: url(../images/popbg_f24cfae.jpg) no-repeat ;
+  z-index: 100000;
+}
+.click-result .text .abstract{
+  width: 780px;
+  border: 1px solid #3b3637;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: #848486;
+}
+.click-result .text .abstract p {
+  margin-left: 100px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+/*allfree(寸土必争)沙盘战略*/
+.allfree{
+    background:url(../images/bg_zl_d9d8524.jpg) top center no-repeat;
+    height: 911px;
+    width: 100%;
+    /*position: relative;*/
+}
+.allfree .fight img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+/*轮播图*/
+.wrap {
+  width: 1300px;
+  margin: 0 auto;
+  display: block;
+}
+.slide {
+  height: 500px;
+  position: relative;
+  left: 50px;
+  margin: 0 auto;
+  display: block;
+}
+.slide li {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  transition: all .5s;
+}
+.slide li img {
+  width: 100%;
+}
+.arrow {
+  opacity: 0;
+  position: relative;
+  z-index: 99;
+  top: 50%;
+}
+
+.prev, .next {
+  width: 76px;
+  height: 112px;
+  position: absolute;
+  top: 50%;
+  margin-top: -56px;
+  background: url(../images/cnt1-rightbtn_2642a1e.png) no-repeat;
+  z-index: 99;
+}
+.prev {
+  left: 30px;
+}
+.next {
+  right: 75px;
+  background-image: url(../images/cnt1-leftbtn_073fc29.png);
+}
+/*设置轮播图片*/
+.slide .slide1 {
+      width: 400px;
+      top: 20px;
+      left: 50px;
+      opacity: 0.2;
+      z-index: 2;
+}
+ .slide .slide2 {
+   width: 600px;
+   top: 70px;
+   left: 0;
+   opacity: 0.8;
+   z-index: 3;
+ }
+ .slide .slide3 {
+   width: 800px;
+   top: 100px;
+   left: 200px;
+   opacity: 1;
+   z-index: 4;
+ }
+.slide .slide4 {
+  width: 600px;
+  top: 70px;
+  left: 600px;
+  opacity: 0.8;
+  z-index: 3;
+}
+.slide .slide5 {
+  width: 400px;
+  top: 20px;
+  left: 750px;
+  opacity: .2;
+  z-index: 2;
+}
+/*eastwind(东风起)年度大版本*/
+.eastwind {
+    background:url(../images/bg_zz_65ce4a9.jpg) top center no-repeat;
+    height: 960px;
+    width: 100%;
+}
+.eastwind .version img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.eastwind .heroes {
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.eastwind .heroes ul li {
+  display: block;
+  position: relative;
+  margin-left: 5px;
+  overflow: hidden;
+}
+/*英雄放大效果*/
+.eastwind .heroes ul li a{
+  display: block;
+  height: 500px;
+  width: 360px;
+}
+.eastwind .heroes ul li img {
+  width: 100%;
+  transform: scale(1);
+  transition: all 1s linear;
+}
+.eastwind .heroes ul li img:hover {
+  cursor: pointer;
+  transform: scale(1.1,1.1);
+}
+/* .eastwind .bord {
+  border: 4px solid #ae8648;
+  width: 355px;
+  height: 490px;
+  position: absolute;
+  top: 0;
+  display: none;
+} */
+/*networks的share*/
+.networks {
+    width: 1916px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+}
+.networks ul{
+    line-height: 44px;
+    display: block;
+    margin-left: 26%;
+    margin-bottom: 139px;
+}
+.networks ul li {
+  margin-right: 10px;
+}
+.networks ul li span {
+    color: #8e8d8b;
+    font-size: 14px;
+}
+/*banner部分的视频播放*/
+.video-back {
+  width: 900px;
+  height: 510px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -255px 0 0 -450px;
+  background: #000;
+  z-index: 100000;
+  display: none;
+}
+.video-back .video-close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+   z-index: 100000;
+  background-color: rgba(0,0,0,0.3);
+}
+.content {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 900px;
+  height: 507px;
+}
+.content video {
+  background-color: black;
+  width: 900px;
+  height: 507px;
+  z-index: 1000000;
+  /*display: none;*/
+
+}

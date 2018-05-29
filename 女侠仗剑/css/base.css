@@ -1,0 +1,82 @@
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  em,i {
+    font-style: normal;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+  
+  button {
+    cursor: pointer
+  }
+  
+  a {
+    color: #666;
+    text-decoration: none
+  }
+  
+  a:hover {
+    color: #e33333
+  }
+  
+  button,input {
+    font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,\\5B8B\4F53,
+    sans-serif;
+    border: none;
+    outline: none;
+  }
+  
+  body {
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,\\5B8B\4F53,sans-serif;
+    color: #666
+  }
+  
+  .hide,.none {
+    display: none
+  }
+  
+  .clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+  }
+  
+  .clearfix {
+    *zoom: 1
+  }
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../icomoon/fonts/icomoon.eot?ybsecf');
+    src:  url('../icomoon/fonts/icomoon.eot?ybsecf#iefix') format('embedded-opentype'),
+      url('../icomoon/fonts/icomoon.ttf?ybsecf') format('truetype'),
+      url('../icomoon/fonts/icomoon.woff?ybsecf') format('woff'),
+      url('../icomoon/fonts/icomoon.svg?ybsecf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .icon {
+    font-family: 'icomoon';
+  }
+  .w{
+    width: 1070px;
+    margin: 0px auto;
+  }
+  .fl{
+    float: left;
+  }
+  .fr{
+    float: right;
+  }

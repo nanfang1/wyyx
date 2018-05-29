@@ -1,0 +1,69 @@
+body,ul,h1,h2,h3,h4,h5,h6,p,input,button,ol,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px microsoft yahei;
+	color: #000;
+}
+li {
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+}
+/*字体图标*/
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../icomoon/fonts/icomoon.eot?ybsecf');
+	src:  url('../icomoon/fonts/icomoon.eot?ybsecf#iefix') format('embedded-opentype'),
+	  url('../icomoon/fonts/icomoon.ttf?ybsecf') format('truetype'),
+	  url('../icomoon/fonts/icomoon.woff?ybsecf') format('woff'),
+	  url('../icomoon/fonts/icomoon.svg?ybsecf#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  .icon {
+	font-family: 'icomoon';;
+  }
+input,img {
+	border: 0 none;
+}
+input {
+	outline-style: none;
+}
+img {
+	vertical-align: top;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+.w {
+	width: 1180px;
+	margin: 0 auto;
+}
+i,em{
+	font-style: normal;
+}

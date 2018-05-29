@@ -1,0 +1,848 @@
+/* 头部导航栏 */
+.header{
+    width:100%;
+    height:55px;
+}
+.header .box{
+    width:1200px;
+    margin:auto;
+    position:relative;
+    z-index:99;
+}
+.header .logo{
+    float:left;
+}
+.header .logo img{
+    height:44px;
+    margin-top:5px;
+}
+.header .ad{
+    width:420px;
+    height:55px;
+    float:left;
+    margin-left:15px;
+}
+.header .ad .ad1{
+    width:420px;
+    height:55px;
+}
+.header .ad .ad2 {
+	width: 960px;
+	height: 250px;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	display: none;
+}
+
+.header .ad:hover .ad1 {
+	display: none;
+}
+
+.header .ad:hover .ad2 {
+	display: block;
+}
+
+.header .link {
+	float: right;
+}
+
+.header .link-a {
+	width: 72px;
+	height: 55px;
+	float: left;
+}
+
+.header .link-a a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 52px;
+	position: relative;
+	color: #333;
+	text-align: center;
+}
+
+.header .link-a a span {
+	display: block;
+	width: 72px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.header .link-a a:hover {
+	background: #f5f5f5;
+	color: #bc2e2e;
+}
+
+.header .link-a a:hover span {
+	background: #bc2e2e;
+}
+
+.header .link-b {
+	width: 124px;
+	height: 55px;
+	line-height: 52px;
+	float: left;
+}
+
+.header .link-b .text {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	position: relative;
+	color: #333;
+	text-align: right;
+}
+
+.header .link-b .text span {
+	display: block;
+	width: 124px;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.header .link-b .text i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/symbol-jiantou.png) no-repeat center #fff;
+	border-radius: 3px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+/* .header .link-b:hover .text {
+	background: #f5f5f5;
+	color: #bc2e2e;
+} */
+
+.header .link-b:hover .text span {
+	background: #bc2e2e;
+}
+
+.header .link-b .hide-list {
+	width: 1200px;
+	height: 476px;
+	opacity: 0.95;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	background: #fdfefe;
+	border-top: 1px solid #ececec;
+	display: none;
+}
+
+.header .hide-list .list {
+	height: 460px;
+	position: relative;
+	background: #fdfefe;
+}
+
+.header .hide-list .list .title {
+	height: 40px;
+	line-height: 40px;
+	color: #bc2e2e;
+	font-size: 14px;
+	text-indent: 20px;
+	background: #f7f7f8;
+}
+
+.header .hide-list .list p {
+	line-height: 24px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	font-weight: bold;
+	color: #626262;
+}
+
+.header .hide-list .list ul {
+	height: 384px;
+	overflow: hidden;
+}
+
+.header .hide-list .list li {
+	height: 24px;
+	line-height: 24px;
+}
+
+.header .hide-list .list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #626262;
+}
+
+.header .hide-list .list li a:hover {
+	color: #bc2e2e;
+}
+
+.header .hide-list .list li i {
+	display: block;
+	width: 18px;
+	height: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.header .hide-list .list li i.icon-hot {
+	background: url(../images/symbol-hot.png) no-repeat center;
+}
+
+.header .hide-list .list li i.icon-new {
+	background: url(../images/symbol-new.png) no-repeat center;
+}
+
+.header .hide-list .list li i.icon-no1 {
+	background: url(../images/symbol-no1.png) no-repeat center;
+}
+
+.header .hide-list .list li i.icon-logo {
+	position: relative;
+	float: left;
+	width: 23px;
+	background: url(../images/symbol-logo.png) no-repeat center;
+}
+
+.header .hide-list .list .more {
+	display: block;
+	width: 20px;
+	height: 95px;
+	position: absolute;
+	right: 0;
+	top: 171px;
+	color: #fff;
+	background: #bc2e2e;
+	padding-left: 10px;
+	padding-top: 7px;
+	line-height: 14px;
+	border-radius: 2px 0;
+}
+
+.header .hide-list .list .more:hover {
+	opacity: 0.9;
+}
+
+.header .hide-list .list .close {
+	display: block;
+	width: 26px;
+	height: 24px;
+	line-height: 24px;
+	position: absolute;
+	right: 0;
+	top: 200px;
+	color: #fff;
+	background: #bc2e2e;
+	border-radius: 2px;
+	text-align: center;
+	display: none;
+}
+
+.header .hide-list .list .close:hover {
+	opacity: 0.9;
+}
+
+.header .hide-list .list-a {
+	width: 300px;
+	float: left;
+}
+
+.header .hide-list .list-a .title {
+	border-right: 1px solid #ececec;
+}
+
+.header .hide-list .list-b {
+	width: 688px;
+	position: absolute;
+	left: 299px;
+	top: 0;
+	overflow: hidden;
+	border-right: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+}
+
+.header .hide-list .list-c {
+	width: 211px;
+	float: right;
+}
+
+.header .hide-list .juese {
+	height: 425px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+.header .hide-list .juese ul {
+	width: 115px;
+	float: left;
+	margin-right: 40px;
+}
+
+.header .hide-list .jingji {
+	width: 144px;
+	height: 425px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	border-right: 1px solid #ececec;
+}
+
+.header .hide-list .jingji li a {
+	width: 105px;
+}
+
+.header .hide-list .remen {
+	position: absolute;
+	width: 148px;
+	height: 425px;
+	border-right: 1px solid #ececec;
+	left: 0;
+	top: 40px;
+}
+
+.header .hide-list .remen p {
+	text-indent: 20px;
+}
+
+.header .hide-list .remen ul {
+	width: 121px;
+	margin-left: 20px;
+}
+
+.header .hide-list .xinpin {
+	width: 800px;
+	height: 425px;
+	position: absolute;
+	padding-left: 20px;
+	left: 149px;
+	top: 40px;
+	overflow: hidden;
+}
+
+.header .hide-list .xinpin ul {
+	float: left;
+	width: 125px;
+	margin-right: 10px;
+}
+
+.header .hide-list .xinpin ul.width110 {
+	width: 110px;
+}
+
+.header .hide-list .xinpin ul.margin20 {
+	margin-left: 20px;
+}
+
+.header .hide-list .fuzhu ul {
+	width: 105px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+.header .link-c {
+	width: 102px;
+	height: 55px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin-left: 5px;
+}
+
+.header .link-c ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+.header .link-c li {
+	width: 100%;
+	height: 55px;
+	margin-bottom: 45px;
+}
+
+.header .link-c li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 52px;
+	position: relative;
+	color: #333;
+	text-align: center;
+}
+
+.header .link-c li a span {
+	display: block;
+	width: 100%;
+	height: 0px;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	background: #bc2e2e;
+	transition: height 0.5s,bottom 0.5s;
+	-webkit-transition: height 0.5s,bottom 0.5s;
+}
+
+.header .link-c li a:hover {
+	background: #f5f5f5;
+	color: #bc2e2e;
+}
+
+.header .link-c li a:hover span {
+	height: 3px;
+	bottom: 0;
+}
+/* 背景图片 */
+.bg{
+    width: 100%;
+    height: 942px;
+    background: url(../images/bgtu.jpg) no-repeat top center;
+    padding-top: 22px;
+    padding-left: 28px;
+    box-sizing: border-box;
+    position: relative;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    position: relative;
+}
+.bg .bglogo img{
+    width: 200px;
+    height: 88px;
+    margin-left: -300px;
+}
+.bg .bglogo ul{
+    display: block;
+    float: right;
+    margin-right: -270px;
+}
+.bg .bglogo ul li{
+    width: 88px;
+    height: 28px;
+    background-color: rgb(209, 5, 5);
+    float: left;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 18px;
+
+}
+.bg .bglogo ul li a{
+    color: #fff;
+    display: block;
+    width: 88px;
+    height: 28px;
+}
+.bg .bglogo ul li a:hover{
+    background-color: rgb(241, 44, 18);
+    border-radius: 14px;
+}
+.bg .yuan{
+    width: 68px;
+    height: 60px;
+    background: url(../images/yuan.png) no-repeat;
+    position: absolute;
+    top: 466px;
+    left: 166px;
+    animation: div_line 1s  linear infinite alternate;
+    }
+    /*定义动画集*/
+    @keyframes div_line{
+        /*动画开始状态就是最原始的样子可以不写*/
+        from{
+            transform: translate(0px,0px);
+        }
+        /*动画的结束状态*/
+        to{
+            transform: rotate(360deg)  scale(1.5);
+        }
+
+}
+.bg .yuan a{
+    display: block;
+    width: 68px;
+    height: 60px;
+}
+.bg .yuan img{
+    margin-top: 18px;
+    margin-left: 26px;
+}
+.bg .shipin{
+    width: 1001px;
+    height: 562px;
+    position: fixed;
+    top: 120px;
+    left: 430px;
+    z-index: 199;
+    display: none;
+}
+.bg .shipin img{
+    position: fixed;
+    top: 120px;
+    right: 410px;
+}
+.bg .touming{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 190;
+    display: none;
+}
+.bg .erbox{
+    width: 384px;
+    height: 172px;
+    position: absolute;
+    top: 556px;
+    left: 40px;
+    background: url(../images/down-box.png) no-repeat;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.bg .erbox .erwei span img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.bg .erbox .erwei i img{
+    width: 105px;
+    height: 12px;
+    position: absolute;
+    top:16px;
+    left: 18px;
+    animation: div_er 2s  linear infinite alternate;
+    }
+    /*定义动画集*/
+    @keyframes div_er{
+        /*动画开始状态就是最原始的样子可以不写*/
+        from{
+            transform: translate(0px,0px);
+        }
+        /*动画的结束状态*/
+        to{
+            transform: translate(0px,96px);
+        }
+}
+.bg .erbox .xiazai{
+    width: 148px;
+    height: 100px;
+    display: inline-block;
+}
+.bg .erbox .xiazai a img{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.bg .erbox .gong{
+    margin-right: 14px;
+    margin-top: 10px;
+}
+.bg .erbox .zhuo{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* 背景一 */
+.bgone{
+    width: 100%;
+    height: 910px;
+    background: url(../images/bg1_2_f4ce66b.jpg) no-repeat top center;
+    box-sizing: border-box;
+}
+.bgone .biao{
+    width: 792px;
+    height: 85px;
+    margin: 0px auto;
+}
+.bgone .xiang{
+    width: 1071px;
+    height: 671px;
+    margin: 30px auto;
+    background: url(../images/xiang.png) no-repeat;
+}
+.bgone .xiang li{
+    float: left;
+    display: block;
+    width: 340px;
+    height: 204px;
+    margin-right: 24px;
+    margin-bottom: 28px;
+}
+.bgone .xiang li h2{
+    color: #b64536;
+    margin-bottom: 24px;
+    margin-left: 172px;
+    margin-top: 50px;
+}
+.bgone .xiang li span{
+    font-size: 14px;
+    color: black;
+    margin-left: 172px;
+}
+.bgone .xiang li:hover{
+    animation: div_line 1s  linear infinite alternate;
+    }
+    /*定义动画集*/
+    @keyframes div_line{
+        /*动画开始状态就是最原始的样子可以不写*/
+        from{
+            transform: translate(0px,0px);
+        }
+        /*动画的结束状态*/
+        to{
+            transform: rotate(360deg)  scale(1.1);
+        }
+}
+.bgone .xiang .one:hover{
+    background: url(../images/xiang1.png) no-repeat 0px 0px;
+}
+.bgone .xiang .two:hover{
+    background: url(../images/xiang1.png) no-repeat -366px 0px;
+}
+.bgone .xiang .three:hover{
+    background: url(../images/xiang1.png) no-repeat -729px 0px;
+}
+.bgone .xiang .four:hover{
+    background: url(../images/xiang1.png) no-repeat 0px -232px;
+}
+.bgone .xiang .five:hover{
+    background: url(../images/xiang1.png) no-repeat -366px -232px;
+}
+.bgone .xiang .six:hover{
+    background: url(../images/xiang1.png) no-repeat -729px -232px;
+}
+.bgone .xiang .seven:hover{
+    background: url(../images/xiang1.png) no-repeat 0px -465px;
+}
+.bgone .xiang .eight:hover{
+    background: url(../images/xiang1.png) no-repeat -366px -465px;
+}
+.bgone .xiang .nine:hover{
+    background: url(../images/xiang1.png) no-repeat -729px -465px;
+}
+.bgone .xiang .rit{
+    margin-right: 0px;
+}
+/* 背景二 */
+.bgtwo{
+    width: 100%;
+    height: 932px;
+    background: url(../images/bg2_2_8538cdc.jpg) no-repeat top center;
+    box-sizing: border-box;
+    position: relative;
+}
+.bgtwo>img{
+    margin: 0px auto;
+    display: block;
+}
+.bgtwo .lunbo{
+    width: 1080px;
+    height: 608px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+}
+.bgtwo .lunbo .lun{
+    width: 1080px;
+    height: 608px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -30px;
+}
+.bgtwo .lunbo .lun ul{
+    width: 7560px;
+    left: -1080px;
+    position: absolute;
+}
+.bgtwo .lunbo .lun ul li{
+    width: 1080px;
+    height: 608px;
+    overflow: hidden;
+    float: left;
+}
+.bgtwo .lunbo .xbiao{
+    width: 1080px;
+    height: 28px;
+    background: url(../images/xbiao.png) no-repeat;
+    background-position: center center;
+    padding-left: 334px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    position: absolute;
+    top: 632px;
+    
+}
+.bgtwo .lunbo .xbiao span{
+    display: block;
+    width: 29px;
+    height: 28px;
+    float: left;
+    margin-right: 67px;
+    background: url(../images/lun.png) no-repeat;
+}
+.bgtwo .lunbo .xbiao span.current{
+    background: url(../images/lun.png) no-repeat 0px -29px;
+}
+/* 背景三 */
+.bgthree{
+    width: 100%;
+    height: 914px;
+    background: url(../images/bg3_2_c539319.jpg) no-repeat top center;
+}
+.bgthree .container>img{
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 150px;
+}
+.bgthree .cont{
+    width: 1200px;
+    margin: 0px 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    margin-left: -188px;
+    margin-top: 200px;
+}
+.bgthree .pictureSlider{
+    /* height: 654px; */
+    margin: 0 auto;
+    /* margin-bottom: 24px; */
+    
+
+}
+.bgthree .poster-item{
+	/* background: #fffbe8; */
+	/* height: 456px;
+    width:336px; */
+    width: 780px;
+    height: 564px;
+	border-radius: 10px;
+	/* padding:45px 23px 20px 23px; */
+    transition: all 0.5s;cursor: default;
+    position: relative;
+}
+.bgthree .on img{
+    margin-top: 68px;
+    width: 687px;
+}
+.bgthree .poster-item span{
+    display: block;
+    width: 200px;
+    height: 64px;
+    position: absolute;
+    top: -10px;
+    left: 284px;
+}
+.bgthree .poster-item i{
+    display: block;
+    width: 200px;
+    height: 64px;
+    position: absolute;
+    bottom: -10px;
+    right: 330px;
+    display: none;
+}
+.bgthree .poster-item i>img{
+    width: 300px;
+    height: 90px;
+    margin-top: 0px;
+}
+
+.bgthree .poster-item span a>img{
+    width: 120px;
+    height: 64px;
+    margin-top: 0px;
+}
+.bgthree .poster-list{
+    margin: 0px auto;
+}
+.foot{
+    width: 1146px;
+    height: 224px;
+    margin: 0px auto;
+    padding-top: 64px;
+    box-sizing: border-box;
+}
+.foot .ltan{
+    margin-top: 8px;
+}
+.foot .gf{
+    margin-left: 74px;
+    width: 373px;
+    height: 114px;
+    background: url(../images/gf1.png) no-repeat top center;
+}
+.foot .gf img{
+    width: 108px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 48px;
+}
+.foot .gf .one{
+    margin-right: 57px;
+}
+.foot .qun{
+    margin-left: 120px;
+}
+.fo{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    height: 238px;
+}
+.footer{
+    width: 716px;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+.fo .footer a img{
+    height: 34px;
+    margin-right: 12px;
+    margin-top: -22px;
+    margin-bottom: 20px;
+}
+.fo .footer span{
+    display: inline-block;
+    width: 402px;
+    margin-left: 20px;
+}
+.fo .footer p{
+    line-height: 20px;
+}
+.to-top {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/fanhui.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 50px 50px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 96%;
+  }
+.header .box.fixed{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(255, 255, 255,0.8);
+    position: fixed;
+    margin: 0px auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-sizing: border-box;
+}

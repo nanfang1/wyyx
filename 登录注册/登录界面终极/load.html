@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网易账号中心</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/load.css">
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 头部开始 -->
+    <div class = "header">
+        <div class="w"> 
+            <span class = "logo fl"></span>
+            <span class = "load fr">已有账号 ? 去<a href="../网易/网易.html" target="blank">登录</a></span>                    
+        </div>
+    </div>
+    <!-- 头部结束 -->
+
+    <!-- 表单开始 -->   
+
+    <div class="w sign">
+        <form>
+
+          <div class="option clearfix">
+            <div class="fl common"><p><a href="#">普通账号注册</a></p></div>
+            <div class="fr special"><p><a href="../靓号注册/index.html" target="blank">靓号注册</a></p></div>  
+          </div>
+          <p class="twotext">账号 : 
+              <input type="text" id = "account" placeholder="网易邮箱/其他邮箱">
+              <span></span>
+          </p>
+          <br>
+          <p class="twotext">密码 : 
+              <input type="password" id = "password" placeholder="6-16位密码，区分大小写">
+              <span></span>
+          </p>
+          <br>
+          <p class="fourtext">确认密码 : 
+              <input type="password" id = "Repassword" placeholder="请再次输入密码">
+              <span></span>
+          </p>
+          <br>
+          <p class="threetext">手机号 : 
+              <input type="text" id = "phone" placeholder="11位手机号">
+              <span></span>
+          </p>
+          <br>
+          <div class = "nation">
+            <p class="phone"><a href="#">切换到国际手机</a></p>
+            <p class="mima">忘记密码时,可通过手机快速找回密码</p>
+          </div>
+          <p class="yz threetext">验证码 : 
+              <input type="text" class="check" placeholder="输入短信验证码"> 
+              <a href="#">获取验证码</a>
+          </p>
+
+          <a id="signIn" href="../阴阳师2/index.html" target="blank">注 册</a>
+
+          <div class="last">
+              <input type="checkbox" class="checkbox" checked>
+              <span>用户勾选即代表同意《网易邮箱服务条款》和《网易隐私政策》</span>
+          </div>
+        </form>    
+
+        <div class="img">
+            <a href="../靓号注册/index.html" target="blank"><img src="images/webzj%2Flhtgzc.png" alt=""></a>
+        </div>
+    </div>
+    <!-- 表单结束 -->
+    <!-- 底部开始 -->
+    <div class="footer w">
+        <p class=" ">
+            <a href="#">About NetEase</a> 
+            <span>-</span>
+            <a href="#">公司简介</a>
+            <span>-</span>
+            <a href="#">联系方式</a>
+            <span>-</span>
+            <a href="#">OAuth2.0认证</a>
+            <span>-</span>
+            <a href="#">招聘信息</a>
+            <span>-</span>
+            <a href="#">客户服务</a>
+            <span>-</span>
+            <a href="#">相关法律</a>
+            <span>-</span>
+            <a href="#">网络营销</a>
+        </p>
+        <p class="copy">网易公司版权所有&copy;1997-2017</p>
+    </div>
+    <div class="music">
+        <audio src="./muse/正确的贝尔 Shingdown oc(Correct Bel_爱给网_aigei_com.mp3" ></audio>
+
+    </div>
+    <script>
+        $('#signIn').click(function(){
+            $('audio')[0].play();
+        });
+        // $('body').mouseover(function(){
+        //     $('audio')[0].play();
+        // });
+    
+    </script>
+
+    <!-- 底部结束 -->
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src = "./js/index.js"></script>
+    
+</body>
+</html>

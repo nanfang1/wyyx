@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <!-- 样式 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background:url(img/20170303030515312.gif) no-repeat;
+      background-size: cover;
+      
+    }
+    
+    ul {
+      list-style: none;
+      width: 1500px;
+    }
+    
+    #box {
+      width: 1400px;
+      height: 700px;
+      /*border: 2px solid yellow;*/
+      margin: 120px auto;
+      opacity: 0.9;
+      border-radius: 10px;
+    }
+    
+    #box li {
+      width: 200px;
+      height: 700px;
+      /*border: 1px solid #000;*/
+      float: left;
+      border-radius: 10px;
+      padding-top: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    #box li span{
+      font-size: 50px;
+      color: #fff;
+      margin-left: 20px;
+      font-family: cursive;
+      text-shadow: burlywood;
+    }
+    #box li div{
+      width: 500px;
+      height: 500px;
+      /* background-color: red; */
+      margin-left: 200px;
+      font-family: cursive;
+      font-size: 20px;
+      position: absolute;
+      top: 140px;
+      left: 0px;
+      
+    }
+    h3{
+      font-size: 30px;
+    }
+    #box li i{
+      font-style: normal;
+      font-size: 70px;
+      /* margin-left:70px; */
+      position: absolute;
+      bottom: 0px;
+      left: 70px;
+      font-family: cursive;
+    }
+    .shouye{
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      background-color: #123;
+      position: fixed;
+      bottom: 25px;
+      right:40px;
+    }
+    .shouye p{
+      line-height: 50px;
+      color: #fff;
+      font-size: 30px;
+      font-family: cursive;
+      text-align:center;
+    }
+    .shouye a{
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<div id="box">
+  <ul>
+    <!-- 1 -->
+    <li>
+      <span>
+        女
+      </span><br>
+      <span>
+        侠
+      </span><br>
+      <span>
+        仗
+      </span><br>
+      <span>
+        剑
+      </span><br>
+       <span>
+        <a href="女侠仗剑/主页.html">Go</a>
+      </span><br>
+      
+      <div>
+          
+          <img src="img/1.jpg" style="width: 600px;height: 400px">
+      </div>
+
+    </li>
+    <!-- 2 -->
+    <li>
+      <span>
+        楚
+      </span><br>
+      <span>
+        留
+      </span><br>
+      <span>
+        香
+      </span><br>
+      
+       <span>
+        <a href="楚留香/index.html">Go</a>
+      </span><br>
+      
+      <div>
+          
+          <img src="img/1.jpg" style="width: 600px;height: 400px">
+      </div>
+    </li>
+    <li>
+      <span>
+        率
+      </span><br>
+      <span>
+       土
+      </span><br>
+      <span>
+       之
+      </span><br>
+      <span>
+       滨
+      </span><br>
+       <span>
+        <a href="率土之滨/index.html">Go</a>
+      </span><br>
+      
+      <div>
+          
+          <img src="img/1.jpg" style="width: 600px;height: 400px">
+      </div>
+    </li>
+    <li>
+      <span>
+       阴
+      </span><br>
+      <span>
+        阳
+      </span><br>
+      <span>
+        师
+      </span><br>
+      
+       <span>
+        <a href="阴阳师/index.html">Go</a>
+      </span><br>
+      
+      <div>
+          
+          <img src="img/1.jpg" style="width: 600px;height: 400px">
+      </div>
+    </li>
+    <li>
+      <span>
+        阴
+      </span><br>
+      <span>
+        阳
+      </span><br>
+      <span>
+        师
+      </span><br>
+      <span>
+       2
+      </span><br>
+       <span>
+        <a href="阴阳师2/阴阳师2.html">Go</a>
+      </span><br>
+      
+      <div>
+          
+          <img src="img/1.jpg" style="width: 600px;height: 400px">
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- 进入按钮 -->
+<div class="shouye">
+  <a href="首页/index.html" target="_blank">
+    <p>进入首页</p>
+  </a>
+</div>
+<script src="js/jquery-1.12.4.js"></script>
+<!-- 样式 -->
+<script>
+  // 模拟服务器给我的数据
+  var arr = ['#FD2F35', '#FFF200', '#00FF66',
+   '#96FF00', '#FDAD2F'];
+
+
+  // 1  设置li的背景图片
+  // 所有的li
+  var $list = $('#box li');
+  arr.forEach(function (item, index) {
+    // 每一个li， 设置每一个li的背景图片
+    $($list[index]).css('background-color', item);
+  });
+
+  // 2 注册li的mouseover事件
+  $list.mouseover(function () {
+    // 2.1 当前li 宽度 800  其它兄弟li 宽度 100
+    $(this)
+      .stop()
+      .animate({'width': 800}, 800)
+      .siblings()
+      .stop()
+      .animate({'width': 100}, 800);
+  });
+
+  // 3 注册li的mouseout  所有li 宽度240
+  $list.mouseout(function () {
+    $list.stop().animate({'width': 200}, 800);
+  });
+</script>
+</body>
+</html>

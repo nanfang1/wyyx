@@ -1,0 +1,171 @@
+ /* 头部开始 */
+.header {
+    height: 130px;
+}
+
+.header > .w > .logo {
+    display: block;
+    height:40px;
+    width: 180px;
+    background: url(../images/sprite.png) no-repeat -45px -23px;
+    margin-top: 40px;
+}
+
+.header > .w >.load {
+    margin-top:52px;
+}
+
+.header > .w >.load a {
+    color:#ca5252;
+}
+
+.sign {
+    height: 964px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.sign form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.sign .option {
+    width: 324px;
+    
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 36px;
+}
+.sign .option > div {
+    height: 45px;
+    width: 160px;
+    border: 1px solid #dddddd;
+}
+.sign .option > div > p {
+    line-height: 45px;
+    text-align: center;
+} 
+.sign .option > div > p > a {
+    color: #666666;
+} 
+
+.sign .option .common {
+    background-color: #ca5252;  
+    
+}
+
+.sign .option .common > p >a {
+    color: #fff;
+}
+/*.sign form > p {
+    text-align: right;
+	margin:auto;
+}*/
+.sign input {
+    width: 320px;
+    height : 46px;
+    padding-left: 8px;
+}
+
+.nation {
+    width: 323px;
+    height: 40px;
+    margin: auto; 
+    margin-bottom: 10px;  
+}
+.nation > p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.nation > p.phone a {
+    color: #4cbeff;
+}
+
+.sign input.check {
+    width: 190px;
+}
+
+.sign p.yz a {
+    display: inline-block;
+    text-align: center;
+    line-height:45px;
+    height: 48px;
+    width: 120px;
+    color: #fff;
+    background-color: #c7e3fa;
+}
+
+.sign form #signIn {
+    display:block;
+    text-align: center;
+    line-height:48px;
+    height: 48px;
+    width: 320px;
+    background-color: #df9797;
+    margin: 26px auto;
+    color: #fff;
+    font-size: 18px;
+}
+.sign form #signIn:hover {
+    background-color: red;
+}
+
+.sign form span {
+    color: red;
+}
+
+.sign .checkbox {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #dddddd;
+}
+
+.sign form span {
+    font-size: 10px;
+}
+
+div.last {
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+div.img {
+    height: 180px;
+    width: 900px;
+    margin: 54px auto;
+}
+.footer {
+    height: 108px;
+}
+.footer p {
+    margin-left: 214px;
+    font-size: 12px;
+}
+.footer p > a , .footer p > span {
+    color: #b1b1b1;
+}
+
+.footer p > a:hover {
+    color: orange;
+}
+
+.footer .copy {
+    color: #b1b1b1; 
+    margin-top: 10px;
+    margin-left: 416px;
+}
+/*p标签设置*/
+.fourtext{
+    margin-left: 20%;
+}
+.threetext{
+    margin-left: 22%;
+}
+.twotext{
+    margin-left: 24%;
+}
+

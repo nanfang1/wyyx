@@ -1,0 +1,91 @@
+/*
+  初始化样式文件
+ */
+* {
+  margin: 0;
+  padding: 0
+}
+body{
+  font-size:12px;
+  width:100%;
+  font-family:"微软雅黑";
+  max-width:1920px;
+  min-width:1260px;
+  margin:auto;
+}
+em,i {
+  font-style: normal
+}
+
+img {
+  border: 0;
+  vertical-align: middle
+}
+button {
+  cursor: pointer
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: #e33333;
+}
+button,input {
+  border:none;
+  outline: none;
+  font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,\\5B8B\4F53,sans-serif
+}
+ul,li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+.hide,.none {
+  display: none
+}
+
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0
+}
+
+.clearfix {
+  *zoom: 1
+}
+
+/*版心*/
+.w {
+  width: 1190px;
+  margin:0 auto;
+}
+/*字体图标*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ybsecf');
+  src:  url('../fonts/icomoon.eot?ybsecf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ybsecf') format('truetype'),
+    url('../fonts/icomoon.woff?ybsecf') format('woff'),
+    url('../fonts/icomoon.svg?ybsecf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*注意！谁要用字体图标，就加上这个类名*/
+.icon {
+  font-family: 'icomoon';;
+}
+
+/*左浮动*/
+.fl {
+  float: left;
+}
+/*右浮动*/
+.fr {
+  float: right;
+}
+
+

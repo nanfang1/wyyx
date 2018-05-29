@@ -1,0 +1,316 @@
+/* 头部样式 */
+.head{
+    height: 50px;
+}
+.wy-sx {
+    width: 1px;
+    height: 26px;
+    margin: 15px 20px 0 20px;
+    background: #dfdfdf;
+    float: left;
+}
+.head img{
+    float: left;
+}
+.f-ff1 {
+    font-family: "Microsoft YaHei",\5fae\8f6f\96c5\9ed1,arial,\5b8b\4f53;
+    float: left;
+    line-height: 50px;
+}
+/* 中间样式 */
+.banner-big {
+    background-color:#39a7eb;
+}
+.banner{
+    height: 512px;
+    position: relative;
+}
+.banner-left{
+	width: 990px;
+	height: 502px;
+    position: absolute;
+    left: -60px;
+    top: 0;   
+}
+.banner-left img{
+	 width:100%;
+     height:100%;
+}
+.banner-right{
+	position: absolute;
+	width: 450px;
+	height: 435px;
+    right: 0;
+    top: 30px;
+    background-color: #e1f2fc;
+}
+.dl-top-tp li{
+    float: left;
+    height: 49px;
+    width: 223px;
+    margin: 0 1px 1px 0;
+    overflow: hidden;
+}
+.dl-top-tp li a{
+    text-align: center;
+    font-size: 22px;
+    color: #323232;
+    line-height: 47px;
+    display: block;	
+    text-decoration:none;
+}
+.dl-zj{
+	width: 350px;
+	height: 270px;
+    margin-left: 11%;
+    margin-top: 18%;
+}
+.input-t{
+	width: 350px;
+	height:45px;
+	background-color: #fff;
+	border: 1px solid #c5cddb;
+}
+.input-b{
+	width: 350px;
+	height:45px;
+	background-color: #fff;
+	border: 1px solid #c5cddb;
+}
+.dl-zj input{
+	height: 45px;
+	width: 230px;
+	border: none;
+	margin-left: 20px;
+	outline:none;
+}
+.input-emlimg{
+	display: inline-block;
+    width: 22px;
+    height: 24px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    background: url(../image/xtb.png) -9999px -9999px no-repeat;
+    background-position: -251px -86px;
+}
+.input-pwdimg{
+	display: inline-block;
+    width: 22px;
+    height: 24px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+	background: url(../image/xtb.png) -9999px -9999px no-repeat;
+    background-position: -291px -86px;
+}
+ .input-b-b{
+ 	position: relative;
+    border: 1px solid #cbcbcb;
+    padding: 0 0;
+    border-radius: 90px;
+    background: #F9F9F9;
+    margin: 0 auto;
+    width: 350px; 
+    height: 35px; 
+    border-radius: 17.5px;
+ }   
+
+ .input-b-b .pic {
+     position: absolute;
+     left: 0;
+     top: -109px;
+     height: 100px;
+     width: 322px;
+     display: none;
+ }
+ .input-b-b .pic-small {
+    position: absolute;
+    left: 0;
+    top: -109px;
+    height: 41px;
+    width: 51px;
+    display: none;
+}
+ .input-gd{
+ 	cursor: pointer;
+    position: absolute;
+    z-index: 2;
+ }
+ .input-gd img{
+     /* position: absolute; */
+ 	height: auto;
+    width: 78.75px;
+ }
+ .input-gd-zt{
+	line-height: 37.1875px;
+    left: 39.375px;
+    position: relative;
+    overflow: hidden;
+    color: #a8a8a8;
+    font-size: 12px;
+    text-align: center;
+    opacity: 1.04339;
+ }
+ .inp{
+ 	 margin-top: 20px;
+ }
+ .ts-tp{
+		background: url(../image/xtb.png) -9999px -9999px no-repeat;
+		background-position: -249px -405px;
+	    width: 20px;
+	    height: 16px;
+	    float: left;
+ }
+ .ts-wz{
+    font-size: 12px;
+    line-height: 15px;
+    word-break: break-all;
+    float: left;
+ }
+ .u-new{
+ 	background: url(../image/icon.png) -9999px -9999px no-repeat;
+   	background-position: -270px 0;
+    width: 26px;
+    height: 7px;
+	display: inline-block;
+    position: relative;
+ }
+ .dl{
+    color: #c8dfed;
+    cursor: default;
+    font-size: 20px;
+    text-decoration:none;
+    line-height: 40px;
+ }
+ .dl-k{
+ 	float: left;
+ 	width: 350px;
+ 	height: 45px;
+ 	background: #79b1d5;
+ 	text-align: center;
+ 	margin-top:16px;
+ }
+ .dengluname{
+ 	padding-top: 10px;
+    padding-bottom: 15px;
+    color: #cecece !important;
+    float: left; 
+    margin-left: 10%;   
+ }
+ .dengluname a{
+	margin: 0 0.5em;
+	color: #406eba;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font: 12px/1.14 arial,\5b8b\4f53;
+ }
+ .loginmsg a{
+    text-decoration:none;
+    font-size: 13px;
+    color: red;
+    padding-left: 50px;
+    position: relative;
+    top: -15px;
+ }
+ .active{
+    background-color: #89caf4;
+    border: 1px solid #3aa7ec;
+ }
+ .qrMsg{
+   font-size: 15px;
+   text-align: center;
+ }
+ .qrMsg a{
+    color: #406eba;
+    outline: none;
+    font-weight: bold;
+    text-decoration:none;
+}
+.ewmd{
+    margin: 35px auto;
+    width: 188px;
+    height: 188px;
+}
+.tksx-t{
+    display: none;
+}
+
+
+
+/* 底部开始 */
+
+.footer {
+    height:308px;
+    overflow: hidden;
+}
+
+.footer ul.protect {
+    /* margin-left: 235px; */
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.footer ul.protect > li {
+    margin-left: 25px;
+    height:54px;
+}
+
+.footer ul.protect > li > a {
+    font-size: 18px;
+}
+
+.footer ul.protect > li p {
+    font-size: 10px;
+    color: #c3c3c3;
+    margin-top: 8px;
+}
+
+.footer ul.protect #box {
+    height: 54px;
+    width: 54px;
+}
+
+.footer ul.protect li.one #box {
+    background: url(../image/gjApp.png) no-repeat;
+}
+
+.footer ul.protect li.two #box{
+    background: url(../image/icon.png) no-repeat 0 -149px;
+}
+
+.footer ul.protect li.three #box{
+    background: url(../image/icon.png) no-repeat -117px -149px;
+}
+
+.footer ul.protect li.four #box{
+    background: url(../image/icon.png) no-repeat -58px -220px;
+}
+
+.footer ul.protect li.five #box{
+    background: url(../image/icon.png) no-repeat -240px -148px;
+}
+.end {
+    height: 50px;
+    width: 100%;
+    margin-top: 210px;
+}
+ .footer .message {
+    margin-left: 224px;
+    font-size: 12px;
+}
+.footer .message > a , .footer .message > span {
+    color: #b1b1b1;
+}
+
+.footer .message > a:hover {
+    color: orange;
+}
+
+.footer .copy {
+    color: #b1b1b1; 
+    /* margin-top: 10px; */
+    margin-left: 416px;
+    font-size: 12px;
+} 

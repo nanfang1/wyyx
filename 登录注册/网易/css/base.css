@@ -1,0 +1,47 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dt,dd,img,input,select,button{
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+
+.w {
+    width:1064px;
+    margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+}
+body {
+    font-family: microsoft yahei;
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+img {
+	outline-style: none;
+	vertical-align: middle;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom:1;
+}

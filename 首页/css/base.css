@@ -1,0 +1,161 @@
+ /*初始化样式文件*/
+ @charset "gb2312";
+
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Î¢ÈíÑÅºÚ"
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+  
+}
+
+html,body,fieldset,img,iframe,abbr
+{
+  border: 0
+}
+
+li
+{
+  list-style: none
+}
+
+textarea
+{
+  overflow: auto;
+  resize: none
+}
+
+a,button
+{
+  cursor: pointer
+}
+
+h1,h2,h3,h4,h5,h6,em,strong,b
+{
+  font-weight: 700
+}
+
+a,a:hover
+{
+  text-decoration: none;
+  outline: 0;
+  -moz-outline: 0
+}
+
+body,textarea,input,button
+{
+  color: #62a1c9
+}
+
+html,body
+{
+  width: 100%;
+  min-height: 930px;
+  height: auto
+}
+
+.hide
+{
+  display: none
+}
+
+.f-cb:after,.f-cbli li:after
+{
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: "."
+}
+
+.f-cb,.f-cbli li
+{
+  zoom: 1
+}
+
+.f-ib
+{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+
+.f-dn
+{
+  display: none
+}
+
+.f-db
+{
+  display: block
+}
+
+.f-fl
+{
+  float: left
+}
+
+.f-fr
+{
+  float: right
+}
+
+.f-pr
+{
+  position: relative
+}
+
+.f-pa
+{
+  position: absolute
+}
+
+.f-prz
+{
+  position: relative;
+  zoom: 1
+}
+
+.f-oh
+{
+  overflow: hidden
+}
+
+.f-turn
+{
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in
+}
+
+
+
+.clr
+{
+  *clear: both;
+  *zoom: 1
+}
+
+.clr:after
+{
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: "."
+}
+
+.w {
+  width: 1260px;
+  margin: 0 auto;
+}

@@ -1,0 +1,1565 @@
+ /*首页样式*/
+ .fone{
+    position: absolute; 
+    z-index: 20;         
+}
+ /*顶部开始*/
+ .g-banner {
+    width: 100%;
+    height: 948px;
+    position: relative;
+    overflow: hidden;
+ }
+ /*轮播图*/
+  .box {
+     width: 100%;
+    height: 948px;
+    overflow: hidden;
+    position: relative;
+ }
+ .g-banner .banner {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 11520px;
+    height: 948px;
+    overflow: hidden;
+ }
+
+ .g-banner .banner li {
+    width: 1920px;
+   position: relative;
+   overflow:hidden;
+ }
+ /*第一张轮播图*/
+ .g-banner .banner .pic1 .pic1-p1 {
+    position: absolute;
+    left: 813px;
+    top: 174px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic1 .pic1-p2 {
+    position: absolute;
+    left: 813px;
+    top: 227px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic1 .redline {
+    width: 450px;
+    height: 2px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 813px;
+    top: 280px;
+ }
+ .g-banner .banner .pic1 .pic1-p3 {
+    position: absolute;
+    left: 813px;
+    top: 300px;
+    font-size: 14px;
+    color: #fff;
+ }
+ .g-banner .banner .pic1 .checkdetail1 {
+    width: 140px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 38px;
+ }
+ .g-banner .banner .pic1 .checkdetail1 a {
+    color: #fff;
+ }
+ /*第二张轮播图*/
+ .g-banner .banner .pic2 .pic2-p1 {
+    position: absolute;
+    left: 913px;
+    top: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #272a2c;
+ }
+ .g-banner .banner .pic2 .pic2-p2 {
+    position: absolute;
+    left: 913px;
+    top: 350px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #272a2c;
+ }
+ .g-banner .banner .pic2 .redline {
+    width: 450px;
+    height: 2px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 913px;
+    top: 400px;
+ }
+ .g-banner .banner .pic2 .pic2-p3 {
+    position: absolute;
+    left: 913px;
+    top: 420px;
+    font-size: 14px;
+    color: #412a2c;
+ }
+ .g-banner .banner .pic2 .checkdetail2 {
+    width: 140px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 38px;
+ }
+ .g-banner .banner .pic2 .checkdetail2 a {
+    color: #fff;
+ }
+ /*第三张轮播图*/
+ .g-banner .banner .pic3 .pic3-p1 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #272a2c;
+ }
+ .g-banner .banner .pic3 .pic3-p2 {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #272a2c;
+ }
+ .g-banner .banner .pic3 .redline {
+    width: 450px;
+    height: 2px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+ }
+ .g-banner .banner .pic3 .checkdetail3 {
+    width: 140px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 360px;
+    top: 450px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 38px;
+ }
+ .g-banner .banner .pic3 .checkdetail3 a {
+    color: #fff;
+ }
+ /*第四张轮播图*/
+ .g-banner .banner .pic4 .pic4-p1 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic4 .pic4-p2 {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic4 .redline {
+    width: 450px;
+    height: 2px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+ }
+ .g-banner .banner .pic4 .checkdetail4 {
+    width: 140px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 360px;
+    top: 450px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 38px;
+ }
+ .g-banner .banner .pic4 .checkdetail4 a {
+    color: #fff;
+ }
+ /*第五张轮播图*/
+ .g-banner .banner .pic5 .pic5-p1 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic5 .pic5-p2 {
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic5 .redline {
+    width: 450px;
+    height: 2px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+ }
+ .g-banner .banner .pic5 .checkdetail5 {
+    width: 140px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 360px;
+    top: 450px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 38px;
+ }
+ .g-banner .banner .pic5 .checkdetail5 a {
+    color: #fff;
+ }
+ /*第六张轮播图*/
+ .g-banner .banner .pic6 .pic6-p1 {
+    position: absolute;
+    left: 813px;
+    top: 174px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic6 .pic6-p2 {
+    position: absolute;
+    left: 813px;
+    top: 227px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+ }
+ .g-banner .banner .pic6 .redline {
+    width: 450px;
+    height: 2px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 813px;
+    top: 280px;
+ }
+ .g-banner .banner .pic6 .pic6-p3 {
+    position: absolute;
+    left: 813px;
+    top: 300px;
+    font-size: 14px;
+    color: #fff;
+ }
+ .g-banner .banner .pic6 .checkdetail6 {
+    width: 140px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: #cf0f32;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 38px;
+ }
+ .g-banner .banner .pic6 .checkdetail6 a {
+    color: #fff;
+ }
+ /*轮播图的小按钮*/
+  #controls {
+    position: absolute;
+    right: 47px;
+    bottom: 358px;
+    width: 140px;
+    height: 20px;
+ }
+  #controls li {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    margin-right: 8px; 
+ }
+ /*选中就显示*/
+  #controls .current {
+    background-color: red;
+ }
+ /*轮播图里的小框*/
+ .small-image .inner {
+    width: 1260px;
+    height: 348px;
+    position: absolute;
+    left: 50%;
+    margin-left: -630px;
+    bottom: 0px;
+ }
+ /*左边的列表栏*/
+.small-image .leftbar {
+    width: 210px;
+    height: 348px;
+    background-color: #272a2c;
+}
+.small-image .leftbar ul {
+    box-sizing: border-box;
+     width: 210px;
+    height: 348px;
+}
+.small-image .leftbar ul li {
+    width: 210px;
+    height: 70px;
+    padding-left: 15px;
+    padding-top: 18px;
+    box-sizing: border-box;
+ }
+.small-image .leftbar ul li:hover {
+    background-color: #080909;
+    border-left: 4px solid #cf0f32;
+}
+ .small-image .leftbar .image1 {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon.png) ;
+    background-size: 40px 40px;
+    float: left;
+ }  
+  .small-image .leftbar .image2 {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon_1.png) ;
+    background-size: 40px 40px;
+    float: left;
+ }  
+  .small-image .leftbar .image3 {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon_2.png) ;
+    background-size: 40px 40px;
+    float: left;
+ }  
+  .small-image .leftbar .image4 {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon_3.png) ;
+    background-size: 40px 40px;
+    float: left;
+ }
+  .small-image .leftbar .image5 {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon_4.png) ;
+    background-size: 40px 40px;
+    float: left;
+ } 
+ .small-image .leftbar h5 {
+    font-size: 14px;
+    margin-left: 15px;
+    color:#a5c3c3;
+ } 
+ .small-image .leftbar p {
+    font-size: 12px;
+    margin-left: 15px;
+    color:#a5c3c3;
+ }  
+ /*中间的图片*/
+
+.small-image .middlebar {
+    width: 510px;
+    height: 348px;
+}
+.small-image .middlebar img {
+    width: 510px;
+    height: 348px;
+}
+ /*右边的列表栏*/
+ .small-image .rightbar {
+    width: 540px;
+    height: 348px;
+    background-color: #282b2d;
+    overflow: hidden;
+    position: relative;
+}
+/*右上角定位的三角*/
+
+.small-image .rightbar .recommand {
+    width: 460px;
+    height: 24px;
+    background-color: rgba(255,255,255,0.2);
+    margin-top: 14px;
+    margin-left: 40px;
+}
+.small-image .rightbar .recommand .tubiao {
+    width: 42px;
+    height: 25px;
+    background-color: #cf0f32;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+
+.small-image .rightbar h3 {
+    font-size: 24px;
+    color: #c4212d;
+    width: 446px;
+    margin-left: 38px;
+    margin-top: 26px;
+    height: 60px;
+    border-bottom: 1px solid #3d4041;
+    border-sizing: border-box;
+    padding-bottom: 16px;
+}
+.small-image .rightbar p {
+    font-size: 14px;
+    margin-left: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+/*列表详细信息*/
+.lists  {
+    /*width: 463px;
+    height: 188px;*/
+   position: absolute;
+   left: 38px;
+   top: 154px;
+}
+.lists li {
+    line-height: 38px;
+}
+.lists .square {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    float: left;
+    background-color: #fff;
+    margin-top: 16px;
+    margin-right: 8px;
+}
+.lists a {
+    color: #c3c3c3;
+    font-size: 14px;
+    margin-right: 123px;
+}
+.lists .date {
+    font-size: 14px;
+    color: #727272;
+    float: left;
+}
+ /*顶部白色导航*/
+ .g-banner .g-top-white {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ /*logo*/
+ .g-banner .g-top-white .logo a {
+    width: 178px;
+    height: 58px; 
+    background: url(../images/logo.png) no-repeat;
+    position: absolute;
+    top: 22px;
+    left: 44px;
+ }
+ .g-banner .g-top-white .logo h1 {
+    font-size: 0px;
+ }
+ /*导航列表*/
+ .g-banner .g-top-white .nav-list {
+    /*width: 820px;*/
+    height: 22px;
+    position: absolute;
+    left: 297px;
+    top: 42px;
+ }
+ .g-banner .g-top-white .nav-list li a {
+    font-size: 16px;
+    color: #818181;
+ }
+ .g-banner .g-top-white .nav-list li a:hover {
+    font-size: 16px;
+    color: #cf0f32;
+ }
+ .g-banner .g-top-white .nav-list .dot {
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #a96833;
+ }
+ /*游戏列表*/
+ .g-banner .g-top-white .gamelist {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    right: 44px;
+    background-color: #cf1132;
+ }
+ /*三根横线*/
+ .g-banner .g-top-white .gamelist .line-one,
+ .g-banner .g-top-white .gamelist .line-two,
+ .g-banner .g-top-white .gamelist .line-three {
+    width: 34px;
+    height: 3px;
+    background-color: #fff;
+ }
+ .g-banner .g-top-white .gamelist .line-one {
+    position: absolute;
+    left: 43px;
+    top: 43px;
+ }
+ .g-banner .g-top-white .gamelist .line-two {
+    position: absolute;
+    left: 43px;
+    top: 53px;
+ }
+ .g-banner .g-top-white .gamelist .line-three {
+    position: absolute;
+    left: 43px;
+    top: 63px;
+ }
+ .g-banner .g-top-white .gamelist span {
+    color: #fff;
+    position: absolute;
+    left: 32px;
+    bottom: 26px;
+ }
+ /*游戏列表被点击后的效果*/
+ .change {
+    width: 33px;
+    height: 33px;
+    background: url(../images/topbar_1.png) -34px 0px;
+    position: absolute;
+    top: 43px;
+    right: 43px;
+    /*background-color: #282b2d;*/
+ }
+ /*游戏列表被点击后的出现的文本框*/
+ .gamelistdetail .inner {
+    width: 1260px;
+    height: 931px;
+    background-color: #282b2d;
+    position: absolute;
+    left: 50%;
+    margin-left: -630px;
+    top: 100px;
+ }
+ /*隐藏盒子的标题*/
+ .gamelistdetail .listname {
+    height: 85px;
+    background-color: #282b2d;
+    position: relative;
+ }
+ .gamelistdetail .listname h3 {
+    position: absolute;
+    left: 64px;
+    top: 33px;
+    color: #fff;
+    font-weight: 400;
+ }
+ .gamelistdetail .listname .newgame {
+    position: absolute;
+    right: 134px;
+    top: 44px;
+ }
+ .gamelistdetail .listname .hotgame {
+    position: absolute;
+    right: 40px;
+    top: 44px;
+ }
+ .gamelistdetail .listname .newgame .mark1,
+ .gamelistdetail .listname .hotgame .mark2 {
+    width: 10px;
+    height: 10px;
+ }
+ .gamelistdetail .listname .newgame .mark1 {
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .listname .hotgame .mark2 {
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+.gamelistdetail .listname .newgame .text1,
+ .gamelistdetail .listname .hotgame .text2 {
+    font-size: 14px;
+    color: #fff;
+ }
+ /*游戏标题*/
+ .gamelistdetail .differentEnd {
+    height: 50px;
+    background-color: #35373a;
+    position: relative;
+ }
+ .gamelistdetail .differentEnd .space1,
+ .gamelistdetail .differentEnd .space2 {
+    width: 4px;
+    height: 16px;
+    background-color: #dd1136;
+ }
+ .gamelistdetail .differentEnd .space1 {
+    position: absolute;
+    left: 40px;
+    top: 16px;
+ }
+ .gamelistdetail .differentEnd .space2 {
+    position: absolute;
+    left: 446px;
+    top: 16px;
+ }
+ .gamelistdetail .differentEnd .customEnd,
+ .gamelistdetail .differentEnd .phoneEnd {
+    font-size: 16px;
+    color: #dd1136;
+ }
+ .gamelistdetail .differentEnd .customEnd {
+    position: absolute;
+    left: 81px;
+    top: 16px;
+ }
+.gamelistdetail .differentEnd .phoneEnd {
+    position: absolute;
+    left: 487px;
+    top: 16px;
+}
+ /*详细的游戏列表，共4个向左浮动的盒子*/
+ /*第1个盒子*/
+ .gamelistdetail .boxOne {
+    width: 296px;
+    background-color: #282b2d;
+    height: 373px;
+    border-right: 1px solid #454545;
+    position: relative;
+ }
+ .gamelistdetail .boxOne h5 {
+    margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .gamelistdetail .boxOne .smallOne .boxDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #c3c3c3;
+ }
+ .gamelistdetail .boxOne .smallOne .boxDetail li .hotmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+ .gamelistdetail .boxOne .smallOne .boxDetail li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .boxOne .smallOne .boxDetail li a:hover {
+   font-weight: 700;
+   color: #fff;
+ }
+ .gamelistdetail .boxOne .smallTwo {
+    margin-left: 20px;
+ }
+ .gamelistdetail .boxOne .smallTwo .boxDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #c3c3c3;
+ }
+ .gamelistdetail .boxOne .smallTwo .boxDetail li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+ .gamelistdetail .boxOne .smallTwo .boxDetail li .hotmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+ .gamelistdetail .boxOne .smallTwo .boxDetail li .newmark {
+     display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+  /*第2个盒子*/
+ .gamelistdetail .boxTwo {
+    width: 145px;
+    background-color: #282b2d;
+    height: 484px;
+    border-right: 1px solid #454545;
+ }
+ .gamelistdetail .boxTwo h5 {
+    margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .gamelistdetail .boxTwo .boxTwoDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #c3c3c3;
+ }
+ .gamelistdetail .boxTwo .boxTwoDetail li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .boxTwo .boxTwoDetail li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+  /*第3个盒子*/
+ .gamelistdetail .boxThree {
+    width: 175px;
+    background-color: #282b2d;
+    height: 736px;
+    border-right: 1px solid #454545;
+ }
+ .gamelistdetail .boxThree h5 {
+    margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .gamelistdetail .boxThree .boxThreeDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #c3c3c3;
+ }
+ .gamelistdetail .boxThree .boxThreeDetail li .hotmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+ .gamelistdetail .boxThree .boxThreeDetail li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+ /*第4个盒子*/
+ .gamelistdetail .boxFour {
+    width: 636px;
+    background-color: #282b2d;
+    height: 796px;
+ }
+ .gamelistdetail .boxFour h5 {
+     margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .gamelistdetail .boxFour .columnOne li a ,
+ .gamelistdetail .boxFour .columnTwo li a ,
+ .gamelistdetail .boxFour .columnThree li a ,
+ .gamelistdetail .boxFour .columnFour li a  {
+     font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #c3c3c3;
+ }
+ .gamelistdetail .boxFour .columnOne li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .boxFour .columnTwo li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .boxFour .columnThree li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .boxFour .columnFour li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .gamelistdetail .boxFour .columnOne li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+ .gamelistdetail .boxFour .columnTwo li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+ .gamelistdetail .boxFour .columnThree li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+ .gamelistdetail .boxFour .columnFour li a:hover {
+    font-weight: 700;
+    color: #fff;
+ }
+
+ /*可以收起列表的箭头*/
+ .gamelistdetail .rollover {
+    width: 54px;
+    height: 14px;
+    background: url(../images/topbar_1.png) -1px -34px;
+    position: absolute;
+    bottom: 14px;
+    left: 594px;
+ }
+ .gamelistdetail .rollover:hover {
+    background: url(../images/topbar_1.png) -1px -48px;
+ }
+
+ 
+ /*顶部结束*/
+.fyouxi {
+    width: 100%;
+    height: 630px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+/*游戏列表*/
+ .g-banner .g-top-white .gamelist {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    right: 44px;
+    background-color: #cf1132;
+ }
+ /*三根横线*/
+ .g-banner .g-top-white .gamelist .line-one,
+ .g-banner .g-top-white .gamelist .line-two,
+ .g-banner .g-top-white .gamelist .line-three {
+    width: 34px;
+    height: 3px;
+    background-color: #fff;
+ }
+ .g-banner .g-top-white .gamelist .line-one {
+    position: absolute;
+    left: 43px;
+    top: 43px;
+ }
+ .g-banner .g-top-white .gamelist .line-two {
+    position: absolute;
+    left: 43px;
+    top: 53px;
+ }
+ .g-banner .g-top-white .gamelist .line-three {
+    position: absolute;
+    left: 43px;
+    top: 63px;
+ }
+ .g-banner .g-top-white .gamelist span {
+    color: #fff;
+    position: absolute;
+    left: 32px;
+    bottom: 26px;
+ }
+ /*游戏列表被点击后的效果*/
+ .change {
+    width: 33px;
+    height: 33px;
+    background: url(../images/topbar_1.png) -34px 0px;
+    position: absolute;
+    top: 43px;
+    right: 43px;
+ }
+ /*游戏列表被点击后的出现的文本框*/
+ .fgamelistdetail .inner {
+    height: 931px;
+    background-color: #fff; 
+    /* left: 44px;
+    top: 100px; */
+ }
+ /*隐藏盒子的标题*/
+ .fgamelistdetail .listname {
+    height: 85px;
+    background-color: #fff;
+    position: relative;
+ }
+ .fgamelistdetail .listname h3 {
+    position: absolute;
+    left: 64px;
+    top: 33px;
+    color: #666666;
+    font-weight: 400;
+ }
+ .fgamelistdetail .listname .newgame {
+    position: absolute;
+    right: 134px;
+    top: 44px;
+ }
+ .fgamelistdetail .listname .hotgame {
+    position: absolute;
+    right: 40px;
+    top: 44px;
+ }
+ .fgamelistdetail .listname .newgame .mark1,
+ .fgamelistdetail .listname .hotgame .mark2 {
+    width: 10px;
+    height: 10px;
+ }
+ .fgamelistdetail .listname .newgame .mark1 {
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .listname .hotgame .mark2 {
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+.fgamelistdetail .listname .newgame .text1,
+ .fgamelistdetail .listname .hotgame .text2 {
+    font-size: 14px;
+    color: #666666;
+ }
+ /*游戏标题*/
+ .fgamelistdetail .differentEnd {
+    height: 50px;
+    background-color: #fff;
+    position: relative;
+ }
+ .fgamelistdetail .differentEnd .space1,
+ .fgamelistdetail .differentEnd .space2 {
+    width: 4px;
+    height: 16px;
+    background-color: #dd1136;
+ }
+ .fgamelistdetail .differentEnd .space1 {
+    position: absolute;
+    left: 40px;
+    top: 16px;
+ }
+ .fgamelistdetail .differentEnd .space2 {
+    position: absolute;
+    left: 446px;
+    top: 16px;
+ }
+ .fgamelistdetail .differentEnd .customEnd {
+    font-size: 16px;
+    color: #dd1136;
+    line-height: 10px;
+ }
+ .fgamelistdetail .differentEnd .phoneEnd {
+    font-size: 16px;
+    color: #dd1136;
+    line-height: 10px;
+    margin-right: 712px;
+    margin-top: 18px;
+ }
+ .fgamelistdetail .differentEnd .customEnd {
+    position: absolute;
+    left: 81px;
+    top: 16px;
+ }
+.gamelistdetail .differentEnd .phoneEnd {
+    position: absolute;
+    left: 487px;
+    top: 16px;
+}
+ /*详细的游戏列表，共4个向左浮动的盒子*/
+ /*第1个盒子*/
+ .fgamelistdetail .boxOne {
+    width: 296px;
+    background-color: #fff;
+    height: 373px;
+    border-right: 1px solid #eeeeee;
+    position: relative;
+ }
+ .fgamelistdetail .boxOne h5 {
+    margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #666666;
+ }
+ .fgamelistdetail .boxOne .smallOne .boxDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #666666;
+ }
+ .fgamelistdetail .boxOne .smallOne .boxDetail li .hotmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+ .fgamelistdetail .boxOne .smallOne .boxDetail li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .boxOne .smallOne .boxDetail li a:hover {
+   font-weight: 700;
+   color: #666666;
+ }
+ .fgamelistdetail .boxOne .smallTwo {
+    margin-left: 20px;
+    background: url(./);
+ }
+ .fgamelistdetail .boxOne .smallTwo .boxDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+ }
+ .fgamelistdetail .boxOne .smallTwo .boxDetail li a:hover {
+    font-weight: 700;
+    color: #666666;
+ }
+ .fgamelistdetail .boxOne .smallTwo .boxDetail li .hotmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+ .fgamelistdetail .boxOne .smallTwo .boxDetail li .newmark {
+     display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+  /*第2个盒子*/
+ .fgamelistdetail .boxTwo {
+    width: 145px;
+    background-color: #fff;
+    height: 484px;
+    border-right: 1px solid #eeeeee;
+ }
+ .fgamelistdetail .boxTwo h5 {
+    margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .fgamelistdetail .boxTwo .boxTwoDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #666666;
+ }
+ .fgamelistdetail .boxTwo .boxTwoDetail li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .boxTwo .boxTwoDetail li a:hover {
+    font-weight: 700;
+    color: #666666;
+ }
+  /*第3个盒子*/
+ .fgamelistdetail .boxThree {
+    width: 175px;
+    background-color:  #fff;
+    height: 736px;
+    border-right: 1px solid #eeeeee;
+ }
+ .fgamelistdetail .boxThree h5 {
+    margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .fgamelistdetail .boxThree .boxThreeDetail li a {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #666666;
+ }
+ .fgamelistdetail .boxThree .boxThreeDetail li .hotmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -48px;
+ }
+ .fgamelistdetail .boxThree .boxThreeDetail li a:hover {
+    font-weight: 700;
+    color: #666666;
+ }
+ /*第4个盒子*/
+ .fgamelistdetail .boxFour {
+    width: 636px;
+    background-color: #fff;
+    height: 796px;
+ }
+ .fgamelistdetail .boxFour h5 {
+     margin-top: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: #6b6b62;
+ }
+ .fgamelistdetail .boxFour .columnOne li a ,
+ .fgamelistdetail .boxFour .columnTwo li a ,
+ .fgamelistdetail .boxFour .columnThree li a ,
+ .fgamelistdetail .boxFour .columnFour li a  {
+     font-size: 14px;
+    line-height: 26px;
+    margin-left: 33px;
+    color: #666666;
+ }
+ .fgamelistdetail .boxFour .columnOne li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .boxFour .columnTwo li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .boxFour .columnThree li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .boxFour .columnFour li .newmark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/topbar_1.png) -56px -34px;
+ }
+ .fgamelistdetail .boxFour .columnOne li a:hover {
+    font-weight: 700;
+    color: #666666;
+ }
+ .fgamelistdetail .boxFour .columnTwo li a:hover {
+    font-weight: 700;
+    color:#666666;
+ }
+ .fgamelistdetail .boxFour .columnThree li a:hover {
+    font-weight: 700;
+    color: #666666;
+ }
+ .fgamelistdetail .boxFour .columnFour li a:hover {
+    font-weight: 700;
+    color: #666666;
+ }
+
+ /*可以收起列表的箭头*/
+ .fgamelistdetail .rollover {
+    width: 54px;
+    height: 14px;
+    background: url(../images/topbar_1.png) -1px -34px;
+    position: absolute;
+    bottom: 14px;
+    left: 594px;
+ }
+ .fgamelistdetail .rollover:hover {
+    background: url(../images/topbar_1.png) -1px -48px;
+ }
+ /*轮播图*/
+
+ 
+ /*顶部结束*/
+
+#fan1 {
+    background-color: #f6f7fb;
+    margin-top: 40px;
+}
+#fworp {
+    width: 1260px;
+    margin:  0 auto;
+    height: 130px;
+}
+#fworp li {
+    float: left;
+    margin-right: 20px;
+}
+#fworp .fquexiao {
+    margin-right: 0;
+}
+#f-meath {
+    height: 92px;
+    width: 1260px;
+    margin: 0 auto;
+}
+#f-meath li {
+    margin-top: 44px;
+    color: #383838;
+    height: 28px;
+}
+#f-hotgame {
+    height: 26px;
+    font-size: 24px;
+    border-left: 4px solid #cf1132; 
+    text-indent: 1em;
+}
+#f-huan {
+    height: 26px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.f-renfench {
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background:url(../images/index_1_z_b307af4.png) ;
+   background-position: -20px 20px;
+}
+#f-newtext {
+    margin-right: 100px;
+    font-size: 24px;
+    border-left: 4px solid #cf1132;
+    text-indent: 1em;
+}
+#f-rensche {
+    height: 660px;
+    /* background-color:#ccc; */
+}
+#f-renschebox {
+    width: 940px;
+    height: 660px;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+}
+/* 楚留香开始 */
+.fyi {
+    width: 300px;
+    height: 320px;
+    color:rgb(158, 156, 156);
+    background-color: #fff;
+    float: left;
+}
+.fzuoyou {
+   margin-left:20px;
+   margin-right:20px;
+}
+.fxialiu {
+     margin-bottom: 20px;
+}
+#f-renschebox h6 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #6b6b6c;
+    text-indent: 1em;
+    margin-top:18px; 
+}
+#f-renschebox .wenzi {
+     width: 266px;
+     height: 62px;
+     margin: 0 auto;
+     line-height: 22px;
+     border-bottom: 1px solid rgb(158, 156, 156);
+     color: #808098;
+}
+#f-renschebox .fjinguanwang {
+    margin-right: 18px;
+    color:rgb(158, 156, 156);
+    line-height: 38px;
+}
+/* 网页的背景图片放置区 */
+.fchu {
+    width: 300px;
+    height: 170px;
+    background: url(../images/24cf59ce1d5247fa9973abde6baa74fb.gif); 
+} 
+.fshuaituzhibing {
+    width: 300px;
+    height: 170px;
+    background: url(../images/7daebbb3-0768-48cf-b921-22033d5aee66.jpg);
+}
+
+/* 这里的图片切换用两个div另一个绝对定位可以换成鼠标移动的事件动画的 */
+/* .fchu:hover {
+    background: url(../images/e1a53e29e0024fd0bb769c3491d5bf47.gif); 
+} */
+.fyingyangshi {
+    width: 300px;
+    height: 170px;
+    background: url(../images/14e0c599-6be9-45fd-8cb1-cc3d70bf1bf9.jpg);
+   
+}
+.fdatang {
+    width: 300px;
+    height: 170px;
+    background: url(../images/f09b3a17-7819-48dd-a539-e947e03c247b.jpeg); 
+}
+.fceshi1 {
+    width: 300px;
+    height: 170px;
+    background: url(../images/6855c6e1-cd46-4423-b32d-1c79581d5deb.jpg); 
+}
+.fceshi2 {
+    width: 300px;
+    height: 170px;
+    background: url(../images/31a97b7164f4477f809002b081241714.gif); 
+}
+
+.ftwo .fxialiu {
+  margin-bottom: 0;
+}
+.fhuantu {
+    width: 300px;
+   height: 170px;
+   background:url(../images/e1a53e29e0024fd0bb769c3491d5bf47.gif);
+   
+}
+.newtextbox {
+    height: 660px;
+    width: 300px;
+    background-color:#fff;
+    border: 1px solid #ccc;
+}
+.fnewtextbox li {
+    width: 100%;
+    height: 108px;
+    border-top:  1px solid #d3d3d6;
+}
+.fnewtextbox li:hover{
+    border-radius: 10px;
+    background-color: #C8DADF;
+}
+.ftupian {
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 19px;
+}
+.ftupian img {
+    width: 71px;
+    height: 71px;
+}
+.fnewwenzi {
+    width: 128px;
+    height: 71px;
+    margin-left: 25px;
+    margin-top: 19px;
+    font-size: 16px;
+    color: rgb(99, 96, 96);
+    line-height: 22px;
+   
+}
+.fnewwenzi h5 {
+    color: rgb(27, 25, 25);
+    font-size: 16px;
+}
+.fnewwenzi>i {
+ display: inline-block;
+ background: url(../images/index_1_z_b307af4.png);
+ width: 14px;
+ height: 14px;
+ background-position: -37px 38px;
+}
+.fnewwenzi span {
+    font-size: 14px;
+}
+.fjiantou {
+    width: 15px;
+    height: 28px;
+    margin-right: 22px;
+    margin-top: 40px;
+    background: url(../images/gt_64d61b9.png) no-repeat;
+}
+.fnewtextbox li:hover .fjiantou{
+    /* background-color: yellow; */
+    background: url(../images/gt_h_d0ca8bd.png) no-repeat;
+}
+.fyouzizhushoubox {
+    height: 334px;
+    width: 100%;
+    background-color: #f6f7fb;
+}
+.fyouzizhushou {
+    height: 334px;
+}
+.fyouzizhushou .fhead{
+    height: 76px;
+}
+.fyouzizhushou .fhead li {
+    width: 150px;
+    height: 22px;
+    margin-top: 38px;
+    color: #6b6b6c;
+}
+.fyouzizhushou .fright{
+   margin-right: 227px;
+}
+.fyouzizhushou .fhead li .fffzuo {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 18px;
+    background:url(../images/l-icon_01b84e0.png);
+}
+/* 游戏助手身体 */
+.fbody {
+    height:164px;
+}
+.fyouzizhushou .fzhushoubox {
+    float: left;
+    width: 150px;
+    height: 164px;
+}
+.fyouzizhushou .fzhushoubox li {
+ width: 150px;
+ height: 80px;
+ background-color:#e3e3e3;
+ text-align: center;
+ color: #808098;
+ border-top: 1px solid #e3e3e3;
+}
+.fyouzizhushou .fzhushoubox li h5 {
+margin-top: 16px;
+color: #222222;
+}
+.fyouzizhushou .fzhushoubox li p {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #808098;
+}
+/* 游戏助手中的空白区域 */
+.fyouzizhushou .fkongbai {
+ margin-bottom: 3px;
+}
+.fyoukongbaixiao {
+    margin-right:2px;   
+}
+.fyoukongbaida {
+    margin-right: 16px;
+}
+/*.ffoter*/
+.ffoter .fkehu {
+color: #6b6b6c;
+font-size:12px;
+height: 40px;
+line-height: 90px;
+}
+.fkehu>span,i {
+    float: left;
+ margin-top: 2px;
+}
+.ffoter .fkehu>i {
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #ccc;
+}
+.ffoter .fkehu li {
+  float: right;
+  margin-right: 102px;
+  margin-top: 7px;
+}
+.ffoter .fkehu .fdianhua {
+    font-size: 14px;
+    margin-left: 14PX;
+}
+.ffoter .fkehu li span {
+  font-weight: 700;
+}
+.ffoter .fkehu i {
+    font-style: normal;
+}
+/* 最底部开始 */
+.foot{
+    width: 1146px;
+    height: 224px;
+    margin: 0px auto;
+    padding-top: 64px;
+    box-sizing: border-box;
+}
+.foot .ltan{
+    margin-top: 8px;
+}
+.foot .fgf{
+    margin-left: 74px;
+    width: 373px;
+    height: 114px;
+    background: url(../images/gf1.png) no-repeat top center;
+}
+.foot .fgf img{
+    width: 105px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 46px;
+}
+.foot .fgf .one{
+    margin-right: 57px;
+}
+.foot .qun{
+    margin-left: 120px;
+}
+.fo{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    height: 238px;
+}
+.footer{
+    width: 716px;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+.fo .footer a img{
+    height: 34px;
+    margin-right: 12px;
+    margin-top: -22px;
+    margin-bottom: 20px;
+}
+.fo .footer span{
+    display: inline-block;
+    width: 402px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #d3d3d6;
+}
+.fo .footer p{
+    line-height: 20px;
+    font-size: 12px;
+    color: #d3d3d6;
+}
+.to-top {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/fanhui.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 50px 50px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 96%;
+  }
+.header .box.fixed{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(255, 255, 255,0.8);
+    position: fixed;
+    margin: 0px auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-sizing: border-box;
+}
